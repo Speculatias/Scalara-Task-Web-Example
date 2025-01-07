@@ -1,0 +1,36 @@
+# Eclipse
+.settings
+.project
+.idea
+.pydevproject
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# VS Code
+.vscode/*
+.history/
+
+# General
+*.bk
+*~
+*.bak
+*.tmp
+*.sock
+*.log
+/tmp
+/src/.version
+
+# Access data
+.env
+
+# Node
+node_modules
+package-lock.json
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*

@@ -1,0 +1,9 @@
+services:
+    nginx:
+        ports:
+            - "80:80"
+            - "443:443"
+        restart: always
+        build:
+            context: .
+            dockerfile: nginx.dockerfile
